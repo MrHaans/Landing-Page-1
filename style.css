@@ -26,7 +26,7 @@ body {
     align-items: center;
 }
 
-.navbar h1 {
+.navbar h1 a{
     padding: 5px;
     margin-left: 350px;
     font: normal 900 24px 'Poppins';
