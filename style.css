@@ -20,21 +20,22 @@ body {
 
 .navbar {
     padding: 20px 0;
-    background-color: #1f2937;
+    background-color: #3BABD9;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar h1 a{
-    padding: 5px;
+
+.navbar a img{
     margin-left: 350px;
-    font: normal 900 24px 'Poppins';
-    color: #f9faf8;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
 }
 
 .navbar ul {
-    margin-right: 150px;
+    margin-right: 350px;
     width: 500px;
     display: flex;
     justify-content: flex-start;
@@ -50,15 +51,28 @@ li {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #1f2937;
 }
 
 .section-1 {
-    background-color: #1f2937;
-    height: 500px;
+    background-color: #3BABD9;
+    height: 550px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top {
+    margin-bottom: 60px;
+}
+
+.both {
+    margin-top: 60px;
+}
+
+hr {
+    border:2px #FA4474 solid;
+    border-radius: 20px;
 }
 
 .main-text {
@@ -70,26 +84,30 @@ a {
 .section-1 img {
     object-fit: cover;
     margin-right: 350px;
-    height: 300px;
+    height: auto;
     width: 600px;
     border-radius: 10px;
 }
 
+.main-text {
+    height: 450px;
+}
+
 .main-text h1 {
     font: normal 900 48px 'Poppins';
-    color: #f9faf8;
+    color: #1f2937;
 }
 
 .main-text p {
     margin-top: 10px;
     font: normal normal 18px 'Poppins';
-    color: #e5e7eb;
+    color: #1f2937;
 }
 
 .main-text button {
     margin-top: 10px;
     padding: 5px 28px;
-    background-color: #3882f6;
+    background-color: #FA4474;
     color: #e5e7eb;
     border-radius: 8px;
     border: none;
@@ -99,7 +117,7 @@ a {
 .main-text button:hover {
     margin-top: 10px;
     padding: 5px 28px;
-    background-color: #2D66C2;
+    background-color: #C7365C;
     color: #e5e7eb;
     border-radius: 8px;
     border: none;
